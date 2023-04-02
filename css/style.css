@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+}
+
+*,*::before,
+::after {
+    box-sizing: inherit;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.flex {
+    display: flex;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.btn-reset {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.btn-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 20px;
+    background-color: var(--pink);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --white-color: #FFFFFF;
+    --aqua-light: #D9FFF5;
+    --pink: #FF3E79;
+    --gray: #EAEAEA;
+    --aqua:#41F6D7;
+    --light-gray: #F8F8F8;;
+    --light-black: #1B1C21;
+    --grey-color: #c4c4c4;
+    --super-light-gray:#7E7E82;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes-Bold'),
+    url('../fonts/TT-Lakes-Bold.woff2') format("woff2"),
+    url('../fonts/TT-Lakes-Bold.woff') format("woff");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes-Medium'),
+    url('../fonts/TT-Lakes-Medium.woff2') format("woff2"),
+    url('../fonts/TT-Lakes-Medium.woff') format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: local('TTLakes-Regular'),
+    url('../fonts/TT-Lakes-Regular.woff2') format("woff2"),
+    url('../fonts/TT-Lakes-Regular.woff') format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'TTLakes', sans-serif;
+    min-width: 320px;
+    max-width: 1920px;
+    overflow-x: hidden;
+    font-style: normal;
+    height: 100vh;
+    background-color: var(--light-gray);
+}
+
+.container{
+padding: 0 16px;
+}
+
+button {
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    align-items: center;
+    cursor: pointer;
+}
+
+.swiper-slide__btn {
+    transition: all .2s ease;
+}
+
+.read-more:hover {
+    opacity: 0.5;
+}
+
+.read-more {
+    transition: all .2s ease;
+}
+
