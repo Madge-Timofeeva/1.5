@@ -569,7 +569,7 @@ button {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.2px;
-  color: #1b1c21; }
+  color: var(--light-black); }
 
 .prices__card__title {
   margin-top: 16px;
@@ -587,7 +587,7 @@ button {
   font-size: 14px;
   line-height: 129%;
   letter-spacing: 0.2px;
-  color: #1b1c21;
+  color: var(--light-black);
   margin-top: 4px; }
 
 .prices__card {
@@ -615,8 +615,8 @@ button {
   letter-spacing: -0.15px;
   text-transform: uppercase;
   border-radius: 50px;
-  background-color: #ff3e79;
-  color: #ffffff; }
+  background-color: var(--pink);
+  color: var(--white-color); }
 
 .swiper-backface-hidden.swiper-slide.swiper-slide__prices.swiper-slide-prev {
   max-width: 260px;
@@ -659,7 +659,7 @@ button {
 .footer__item {
   font-size: 14px;
   line-height: 114%;
-  color: #7e7e82;
+  color: var(--super-light-gray);
   mix-blend-mode: normal;
   text-align: center;
   margin-bottom: 1rem;
@@ -713,7 +713,7 @@ button {
     line-height: 150%;
     letter-spacing: -0.2px;
     text-transform: uppercase;
-    color: #7E7E82; }
+    color: var(--super-light-gray); }
   .swiper {
     min-height: 112px;
     margin-bottom: 11px; }
@@ -729,14 +729,14 @@ button {
     padding-right: 0;
     padding-bottom: 14px;
     align-items: center;
-    background: #FFFFFF;
-    border: 1px solid #EAEAEA;
+    background: var(--white-color);
+    border: 1px solid var(--gray);
     border-radius: 6px; }
   .swiper-slide__btn {
     width: 36px;
     height: 36px;
     margin-right: 15px;
-    border: 2px solid #FF3E79;
+    border: 2px solid var(--pink);
     border-radius: 50px;
     background-image: url(./static/dropdown.svg);
     background-position: center center;
@@ -769,7 +769,7 @@ button {
     font-weight: 500;
     line-height: 150%;
     letter-spacing: -0.2px;
-    color: #1b1c21; }
+    color: var(--light-black); }
   .repair__btn {
     align-self: flex-end; }
   .repair-container {
@@ -894,7 +894,7 @@ button {
     justify-content: space-between;
     padding: 31px 18px 16px; }
   th {
-    background-color: #f8f8f8;
+    background-color: var(--light-gray);
     opacity: 0.5;
     text-align: left;
     width: calc(100% / 4);
